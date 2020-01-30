@@ -1,9 +1,0 @@
-java.sql.SQLException: ResultSet closed
-java.sql.SQLException: ResultSet closed
-	at org.sqlite.core.CoreResultSet.checkOpen(CoreResultSet.java:76)
-	at org.sqlite.jdbc3.JDBC3ResultSet.findColumn(JDBC3ResultSet.java:39)
-	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:452)
-	at DataSource.queryUserByEmail(DataSource.java:129)
-	at ServerRunnable.resetPassword(ServerRunnable.java:238)
-	at ServerRunnable.run(ServerRunnable.java:75)
-	at java.lang.Thread.run(Thread.java:748)
